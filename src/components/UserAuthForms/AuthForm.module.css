@@ -1,0 +1,104 @@
+.container {
+  height: 100vh;
+  background-color: #e6fcf5;
+  padding: 6rem 0;
+}
+
+.child-container {
+  background-color: #fff;
+  max-width: 45rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 5rem 5rem;
+  border-radius: 0.5rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
+  color: #452fc7;
+}
+
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #8e959b;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.form-control input {
+  width: 100%;
+  outline: none;
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.form-actions button {
+  width: 100%;
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem;
+  border: 1px solid #452fc7;
+  border-radius: 0.5rem;
+  background-color: #452fc7;
+  color: #f3f0ff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.form-actions button:hover,
+.form-actions button:active {
+  background-color: #3e2ab3;
+}
+
+.signin {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.signin a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #3e2ab3;
+  cursor: pointer;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 1.5rem;
+}
+
+.signup a {
+  text-decoration: none;
+  color: #3e2ab3;
+  cursor: pointer;
+}
+
+.main-logo-auth img {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #ccc;
+}
+
+.disabled button {
+  width: 100%;
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem;
+  border: 1px solid #afafaf;
+  border-radius: 0.5rem;
+  background-color: #afafaf;
+  color: #626262;
+  cursor: pointer;
+  transition: all 0.3s;
+}

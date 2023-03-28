@@ -1,0 +1,81 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  align-items: center;
+  justify-items: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.075);
+  padding: 2rem 0;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  width: 99%;
+}
+
+.property-list {
+  padding: 1rem 0;
+}
+
+.grid-heading {
+  color: #155b9d;
+  width: 98.25%;
+}
+
+.image {
+  width: 8.5rem;
+  height: 5rem;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.6rem;
+}
+
+.status p {
+  padding: 0.4rem 1rem;
+  background-color: #e6fcf5;
+  display: inline;
+  color: #216aaf;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.actions button {
+  background-color: #fff;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.views-btn {
+  color: #adb5bd;
+}
+
+.views-btn:hover,
+.views-btn:active {
+  color: #a5d8ff;
+}
+
+.edit-btn {
+  color: #5f3dc4;
+}
+
+.delete-btn {
+  color: #c92a2a;
+}
+
+.edit-btn:hover,
+.edit-btn:active {
+  color: #5637b0;
+}
+.delete-btn:hover,
+.delete-btn:active {
+  color: #b52626;
+}

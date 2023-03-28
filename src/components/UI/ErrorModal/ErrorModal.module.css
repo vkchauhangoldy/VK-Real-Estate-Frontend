@@ -1,0 +1,80 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header {
+  background: #9775fa;
+  padding: 1.6rem;
+}
+
+.header h2 {
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+}
+
+.content {
+  padding: 1.6rem;
+}
+
+.content p {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
+}
+
+.actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.btn {
+  padding: 0.6rem 1.8rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: none;
+}
+
+.cancel-btn {
+  background-color: #d3f9d8;
+  color: #009611;
+}
+
+.cancel-btn:hover,
+.cancel-btn:active {
+  background-color: #bee0c2;
+}
+
+.delete-btn {
+  background-color: #e03131;
+  color: #fff5f5;
+}
+
+.delete-btn:hover,
+.delete-btn:active {
+  background-color: #ca2c2c;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}

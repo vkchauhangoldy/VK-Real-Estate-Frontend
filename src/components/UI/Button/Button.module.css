@@ -1,0 +1,9 @@
+.button {
+  padding: 1.7rem 2rem;
+  border-radius: 10rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.5px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.3s;
+}

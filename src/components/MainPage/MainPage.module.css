@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.pexels.com/photos/4161619/pexels-photo-4161619.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: 100vw 110vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.main-heading {
+  color: rgba(230, 252, 245, 0.7);
+  font-size: 4.8rem;
+  letter-spacing: 1px;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  /* padding: 50rem; */
+}
+
+.auth-btn {
+  width: 20rem;
+  background-color: rgba(230, 252, 245, 0.65);
+  font-size: 1.8rem;
+}
+
+.auth-btn:hover {
+  background-color: #e6fcf5;
+}
